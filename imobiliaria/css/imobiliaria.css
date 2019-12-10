@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+.topo{
+height: 200px;
+background-color: white;
+}
+
+.logomarca img{
+	width: 150px;
+	height: 150px;
+}
+
+.fonte{
+	font-size: 30px;
+	color: blue;
+	text-align:center;
+	font-family: arial;
+}
+
+.img{
+	width: 50px;
+	height: 50px;
+}
+
+.butao {
+  background-color:black;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 4px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  }
+
+
+.butao li{
+  text-decoration: none;
+}
+
+.menu ul,li{
+  float: right;
+  margin: -10px;
+  padding: 0;
+  list-style:;
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+
+
+
+.botao ul{
+	text-decoration: none;
+}

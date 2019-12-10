@@ -1,0 +1,172 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(../imagens/int2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}	
+
+
+.topoesquerda{
+	overflow: hidden;
+	background-color: black;
+}
+
+.topoesquerda a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topoesquerda a:hover{
+	background-color: pink;
+	cursor: pointer;
+	border-radius: 2px 2px 2px;
+}
+
+.topodireita a{
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topodireita{
+	background-color: black;
+	margin-top: -50px;
+}
+
+.topodireita a.ativo {
+  background-color: pink;
+  color: pink;
+}
+
+.texto{
+	font-family: ;
+	font-size: 20px;
+	margin: 50px;
+	padding: 20px;
+}
+
+
+.texto1{
+	font-family: verdana-serif ;
+	color:black;
+	font-size: 50px;
+	margin: 100px;
+	padding: 100px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.card{
+	background-image: url(../imagens/casa.png);
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width: 300px;
+	height: 400px;
+	transform-style:preserve-3d;
+	perspective:600px;
+	transition:0.5s;
+}
+
+
+.card .font{
+	position:absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility:hidden;
+	transform:rotateX(0deg);
+	transition:0.5s;
+}	
+
+.card:hover .font{
+	transform:rotateX(-180deg);
+}
+
+.card .back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility:hidden;
+	transform:rotateX(180deg);
+	transition:0.5s;
+}
+
+.card .back:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.1);
+}
+
+.card:hover .back{
+	transform:rotateX(0deg);
+}
+
+.card .back .details{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.card .back .details h2{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	color: #fff;
+}	
+
+.card .back .details h2 span{
+	color: #a7a7a7;
+	font-size: 16px;
+}
+
+.social-icons{
+	padding: 10px 0;
+}
+
+.social-icons a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: #262626;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50%;
+	transition:0.5s;
+}
+
+.social-icons a .fa{
+	line-height: 36px;
+}
+
+.social-icons a:hover{
+	background: #e91e63;
+}
